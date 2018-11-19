@@ -1,0 +1,94 @@
+.control_panel {
+  width: 100vw;
+  margin: 0px 0;
+  background-color: rgb(239, 239, 244);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.control_panel h3 {
+  font-size: 18px;
+}
+
+.control_panel h2 {
+  width: 100%;
+  margin: 10px;
+  padding: 0;
+  font-size: 25px;
+}
+
+.control_panel > section {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.control_panel input {
+  margin: 15px;
+  height: 50px;
+  font-size: 1em;
+}
+.control_panel button {
+  width: 130px;
+  margin: 15px 0 0 0;
+  height: 50px;
+  border: 2px solid rgb(13, 54, 159);
+  border-radius: 15px;
+  font-size: 1em;
+
+  color: rgb(13, 54, 159);
+  font-weight: bold;
+  cursor: pointer;
+}
+.control_panel button:hover {
+  border: 2px solid white;
+  background-color: rgb(13, 54, 159);
+  color: white;
+}
+.control_panel span {
+  font-size: 1em;
+  color: rgb(13, 54, 159);
+}
+.amount input {
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+#downloadFile {
+  border-color: black;
+  color: Black;
+}
+
+#downloadFile:hover {
+  color: white;
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  .control_panel > section {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .control_panel span {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .amount input {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  .amount h3 {
+    width: 100px;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.venue_list {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
